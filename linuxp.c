@@ -5,13 +5,13 @@
 #include<sys/msg.h>
 #include<unistd.h>
 #include<string.h>
-struct whatsapp
+struct messengerwithamessagequeueservice
 {
         char id[20];
         char pswd[20];
 };
  
-struct whatsapp user1;
+struct messengerwithamessagequeueservice user1;
 void login(FILE *);
 void send();
 void rec();
